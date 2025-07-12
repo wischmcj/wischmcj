@@ -60,6 +60,18 @@ At work, I optimize cloud ETL systems, automate workflows, and scale data platfo
 
 ---
 
+### 🌲 [`ArchiveTeam IAC`](https://github.com/wischmcj/archiveteam-digitalocean-IaC)
+> Infrastructure as code that deploys an arbitrary number of Docker clusters along with a Prometheus, Grafana, NodeJS monitoring stack. Utilized primarily for the community archive project [ArchiveTeam](https://wiki.archiveteam.org/) 
+
+- Deploys and enables ssh on digital ocean droplets using OpenTofu
+- Configures an observer node and N worker nodes using custom Ansible roles 
+- Runs an arbitrary # of docker containers/images on each worker node (defined via bash script for flexibility)
+
+
+![Simplified Process Diagram](./imgs/archiveteam_small.png)
+
+---
+
 ### ⚡ [`PenguaLab-IaC`](https://github.com/wischmcj/PenguaLab-IaC)
 > Infrastructure-as-code setup for deploying a research-ready Kubernetes cluster with Terraform, Ansible, and Rancher.
 
@@ -78,7 +90,7 @@ At work, I optimize cloud ETL systems, automate workflows, and scale data platfo
 ---
 
 ### 🕸️ [`linkedInScraper`](https://github.com/wischmcj/linkedInScraper)
-> Lightweight Python tool for scraping structured profile data from LinkedIn.
+> A DLT pipeline for pulling jobs for followd companies from LinkedIn. Likewise contains a Node app for automating the application to jobs in a list curated by the user.
 
 - Showcases utility scripting and automated data collection
 - Represents my knack for building tools to bridge information silos
@@ -87,9 +99,7 @@ At work, I optimize cloud ETL systems, automate workflows, and scale data platfo
 
 ## 🎯 What Drives Me
 
-I'm deeply motivated by work that sits at the intersection of **data science**, **ecological systems**, and **open innovation**. Whether I'm optimizing cloud workflows for a healthtech platform or building open-source tooling for canopy modeling, my mission remains the same:
-
-> **Empower science, sustainability, and community through data.**
+I'm deeply motivated by work that sits at the intersection of **data science**, **ecological systems**, and **open innovation**. Moreover, I strive to embody the principles of 'data-as-a-service' in my work - keeping my focus on the end users and the value my tools might provide.
 
 ---
 
