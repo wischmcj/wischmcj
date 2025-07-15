@@ -21,18 +21,17 @@
   <!-- <a href="https://twitter.com/mrstandu33"><img src="https://img.shields.io/badge/twitter-1DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white"/></a> -->
 </p>
 
-I'm a **data engineer** and **environmental technologist** passionate about building scalable, cloud-native solutions for scientific research and sustainability. With over six years of experience in data infrastructure, I bridge modern DevOps practices with cutting-edge research in ecology, hydrology, and geospatial analytics.
-
-At work, I optimize cloud ETL systems, automate workflows, and scale data platforms to power high-impact analytics. In my personal time, I develop open-source tools to support ecological modeling, LiDAR analysis, and reproducible research.
+I'm a **data engineer** and **environmental data enthusiast** passionate about building bespoke data tooling for use in scientific research. I focus on geospatial/remote sensing data analysis, with an emphasis on 
+- robust CI/CD for reproducibility 
+- IaC tooling for highly parallelized workflows
+- 
+ecological modeling, LiDAR analysis, and reproducible research.
 
 ---
 
 ## 🔬 My Work at a Glance
 
-- ⚙️ **Cloud-Native Data Engineering**: Scalable architectures using AWS, Terraform, Docker, and Kubernetes.
-- 🧪 **Scientific Tooling**: Spatial and LiDAR-based modeling for canopy hydrology and forest structure.
-- 🌱 **Sustainability & Ecology**: Translating environmental data into actionable insights for a regenerative future.
-- 🤝 **Community Builder**: Founder of internal analytics guilds and contributor to open-source infrastructure.
+- ⚙️ **TODO
 
 ---
 
