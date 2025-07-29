@@ -21,11 +21,10 @@
   <!-- <a href="https://twitter.com/mrstandu33"><img src="https://img.shields.io/badge/twitter-1DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white"/></a> -->
 </p>
 
-I'm a **data engineer** and **environmental data enthusiast** passionate about empowering scientists with data. My key efforts focus on geospatial/remote sensing data analysis but I add value more generally through :
+I'm a **data engineer** and **environmental data enthusiast** passionate about empowering scientists with data. My key efforts focus on geospatial/remote sensing data analysis but I add value more generally through:
 - the creation of data acquisition pipelines (REST/SOAP Apis, web scraping,...)
 - implementation of lightweight CI/CD tooling
-- containerization and IaC for dynamic, parallelized workflows.
-ecological modeling, LiDAR analysis, and reproducible research.
+- orchestration and containerization of workflows (often leveraging IaC tools for reproducibility)
 
 ---
 
