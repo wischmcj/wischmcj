@@ -30,6 +30,31 @@ I'm a **data engineer** and **environmental data enthusiast** passionate about e
 
 ## 🔬 My Work at a Glance
 
+### CI/CD, Production Code
+- **canopyHydrodynamics**  
+  *Python, NumPy, GeoPandas, NetworkX, PyPI, GitHub Actions*  
+  Simulates water movement through tree canopies using LiDAR and spatial hydrology models.
+
+### Spatial Data
+- **pyQSM**  
+  *Python, Open3D, PyTorch, Mesh Processing Libraries*  
+  Processes terrestrial LiDAR scans for tree isolation and segmentation using ML and procedural techniques.
+
+### IaC, Cloud Infra
+- **ArchiveTeam IAC**  
+  *OpenTofu, Ansible, Docker, Prometheus, Grafana, NodeJS*  
+  Infrastructure-as-code for deploying observability stacks and containerized apps across remote machines.
+
+- **PenguaLab-IaC**  
+  *Terraform, Ansible, Helm, Kubernetes (k3s)*  
+  Home lab infrastructure-as-code for distributed modeling and resilient, flexible tooling.
+
+### ML Ops
+- **ml_ops_tree_learn**  
+  *Python, Digital Ocean, CUDA, MLOps*  
+  Cloud deployment tool for the Tree Learn Unet model with automated GPU provisioning.
+
+
 - ⚙️ **TODO
 
 ---
