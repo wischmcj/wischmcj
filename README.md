@@ -31,28 +31,23 @@ I'm a **data engineer** and **environmental data enthusiast** passionate about e
 ## 🔬 My Work at a Glance
 
 - **canopyHydrodynamics** 
-  Proficencies: *CI/CD, GitOps, Packaging*  
-  Technologies: *Python, NumPy, GeoPandas, NetworkX, PyPI*  
+  *CI/CD, GitOps, NumPy, GeoPandas, PyPI*  
   Simulates water movement through tree canopies using LiDAR and spatial hydrology models.
 
 - **pyQSM**  
-  Proficencies: *Spatial Data, 3D Modeling*
-  Technologies: *Python, Open3D, PyTorch, Mesh Processing Libraries*  
+  *Spatial Data, 3D Modeling, Open3D, PyTorch, Mesh Processing*  
   Processes terrestrial LiDAR scans for tree isolation and segmentation using ML and procedural techniques.
 
 - **ArchiveTeam IAC**  
-  Proficencies: *Bash, Linux, Cloud Infra*  
-  Technologies: *OpenTofu, Ansible, Docker, Prometheus, Grafana, NodeJS*  
+  *OpenTofu, Ansible, Prometheus, Grafana, NodeJS*  
   Infrastructure-as-code for deploying observability stacks and containerized apps across remote machines.
 
 - **PenguaLab-IaC**  
-  Proficencies: *Bash, Linux, Cloud Infra*  
-  Technologies: *Terraform, Ansible, Helm, Kubernetes (k3s)*  
+  *Bash, Linux, Ansible, Helm, Kubernetes (k3s)*  
   Home lab infrastructure-as-code for distributed modeling and resilient, flexible tooling.
 
 - **ml_ops_tree_learn**  
-  Proficencies: *MLOps*  
-  Technologies: *Python, Digital Ocean, CUDA*  
+  *MLOps, Digital Ocean, CUDA*  
   Cloud deployment tool for the Tree Learn Unet model with automated GPU provisioning.
 
 ---
