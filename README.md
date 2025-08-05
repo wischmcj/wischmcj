@@ -31,12 +31,12 @@ I'm a **data engineer** and **environmental data enthusiast** passionate about e
 ## 🔬 My Work at a Glance
 
 - **canopyHydrodynamics** 
-  Proficencies: *CI/CD, Publication*  
+  Proficencies: *CI/CD, GitOps, Packaging*  
   Technologies: *Python, NumPy, GeoPandas, NetworkX, PyPI, GitHub Actions*  
   Simulates water movement through tree canopies using LiDAR and spatial hydrology models.
 
 - **pyQSM**  
-  Proficencies: *Spatial Algos, 3D Modeling*  
+  Proficencies: *Spatial Data, 3D Modeling*
   Technologies: *Python, Open3D, PyTorch, Mesh Processing Libraries*  
   Processes terrestrial LiDAR scans for tree isolation and segmentation using ML and procedural techniques.
 
