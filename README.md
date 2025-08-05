@@ -48,11 +48,11 @@ I'm a **data engineer** and **environmental data enthusiast** passionate about e
 ---
 
 ### 🌲 [`pyQSM`](https://github.com/wischmcj/pyQSM)
-> A developing tool for processing terrestrial LiDAR scans to generate quantitative structure models (QSMs) of trees.
+> A developing tool for processing terrestrial LiDAR scans; combining ML and procdedural techniqes for two main purposes
+  1. **Tree Isolation**: Separating individual trees from surrounding man-made objects and other vegetation
+  2. **Tree Segmentation**: Isolating and analyzing different parts of trees (trunk, branches, leaves) for structural modeling
 
-- Combines machine learning and computer vision to analyze forest structure
-- Built with Open3D, PyTorch, and mesh processing libraries
-- Inspired by my work on spatial forestry research and scientific publications
+Built with Open3D, PyTorch, and mesh processing libraries
 
 ![QSM pipeline visualization](./imgs/cluster4_side_by_Side.png)
 
