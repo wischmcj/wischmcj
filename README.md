@@ -32,7 +32,7 @@ I'm a **data engineer** and **environmental data enthusiast** passionate about e
 
 - **canopyHydrodynamics** 
   Proficencies: *CI/CD, GitOps, Packaging*  
-  Technologies: *Python, NumPy, GeoPandas, NetworkX, PyPI, GitHub Actions*  
+  Technologies: *Python, NumPy, GeoPandas, NetworkX, PyPI*  
   Simulates water movement through tree canopies using LiDAR and spatial hydrology models.
 
 - **pyQSM**  
