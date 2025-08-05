@@ -29,8 +29,7 @@ I'm a **data engineer** and **environmental data enthusiast** passionate about e
 ---
 
 ## 🔬 My Work at a Glance
-
-- **canopyHydrodynamics** 
+- **canopyHydrodynamics**  
   *CI/CD, GitOps, NumPy, GeoPandas, PyPI*  
   Simulates water movement through tree canopies using LiDAR and spatial hydrology models.
 
