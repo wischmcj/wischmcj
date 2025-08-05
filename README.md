@@ -37,18 +37,18 @@ I'm a **data engineer** and **environmental data enthusiast** passionate about e
 ## 🚀 Featured Projects
 
 ### 🌳 [`canopyHydrodynamics`](https://github.com/wischmcj/canopyHydrodynamics)
-> A production-grade Python package for simulating water movement through tree canopies using LiDAR data and spatial hydrology models.
+A production-grade Python package for simulating water movement through tree canopies using LiDAR data and spatial hydrology models.
 
 - Published to PyPI and cited in ecological research
-- Enables ecohydrological modeling with NumPy, Pandas, and Polaris
-- Reflects my passion for making environmental science computationally accessible
+- Extracts data for ecohydrological modeling utilizing only commonly used packages (NumPy, GeoPandas, NetworkX)
+- Completed with robust CI/CD for testing, documentation automation and package publication
 
 ![canopy hydrodynamics visualization](./imgs/PC_QSM_Plot.png)
 
 ---
 
 ### 🌲 [`pyQSM`](https://github.com/wischmcj/pyQSM)
-> A developing tool for processing terrestrial LiDAR scans; combining ML and procdedural techniqes for two main purposes
+An under-development tool for processing terrestrial LiDAR scans; combining ML and procdedural techniqes for two main purposes
   1. **Tree Isolation**: Separating individual trees from surrounding man-made objects and other vegetation
   2. **Tree Segmentation**: Isolating and analyzing different parts of trees (trunk, branches, leaves) for structural modeling
 
@@ -58,12 +58,12 @@ Built with Open3D, PyTorch, and mesh processing libraries
 
 ---
 
-### 🌲 [`ArchiveTeam IAC`](https://github.com/wischmcj/archiveteam-digitalocean-IaC)
-> Infrastructure as code that deploys an arbitrary number of Docker clusters along with a Prometheus, Grafana, NodeJS monitoring stack. Utilized primarily for the community archive project [ArchiveTeam](https://wiki.archiveteam.org/) 
 
-- Deploys and enables ssh on digital ocean droplets using OpenTofu
-- Configures an observer node and N worker nodes using custom Ansible roles 
-- Runs an arbitrary # of docker containers/images on each worker node (defined via bash script for flexibility)
+### 🌲 [`ArchiveTeam IAC`](https://github.com/wischmcj/archiveteam-digitalocean-IaC)
+Infrastructure-as-code that deploys a modern observability stack and an arbitrary number of containerized applications across several remote machines. Docker is used for containerization and the observation stack consists of a Prometheus, Grafana, and a custom NodeJS metrics server. Utilized primarily for the community archive project [ArchiveTeam](https://wiki.archiveteam.org/) 
+
+- Creates and configures observer and worker nodes on digital ocean droplets using OpenTofu, Ansible
+- Configurable, enabling a dynamic number of: workers (e.g. droplets) within the cluster and containers within each worker
 
 
 ![Simplified Process Diagram](./imgs/archiveteam_small.png)
@@ -71,24 +71,22 @@ Built with Open3D, PyTorch, and mesh processing libraries
 ---
 
 ### ⚡ [`PenguaLab-IaC`](https://github.com/wischmcj/PenguaLab-IaC)
-> Infrastructure-as-code setup for deploying a research-ready Kubernetes cluster with Terraform, Ansible, and Rancher.
+Infrastructure-as-code setup for deploying a variety of homelab software containers on a Kubernetes (k3s) cluster using Terraform, Ansible, and Helm.
 
-- Built to support high-performance ecological simulations
-- Demonstrates DevOps skills and commitment to reproducible science
-- Merges cloud computing with academic experimentation
-
+- Built to support a distributed home architecture for running parallel modeling processes 
+- Entirely defines my home network as code, allowing me to host a resilient but flexible suite of always-available tooling
 ---
 
 ### 🔄 [`ml_ops_tree_learn`](https://github.com/wischmcj/ml_ops_tree_learn)
-> A small MLOps demo with version-controlled training, cloud deployment, and automated provisioning.
+A small MLOps tool for cloud deployment of the Tree Learn Unet model. Automated provisioning of Digital Ocean GPU droplets to allow for accessible CUDA friendly compute.
 
 - Emulates workflows I use professionally for model delivery
-- Reinforces my experience in ML infrastructure (CI/CD, ECS, Prefect)
+- Exemplifies the power of ML Ops when combined with open-source ML research
 
 ---
 
 ### 🕸️ [`linkedInScraper`](https://github.com/wischmcj/linkedInScraper)
-> A DLT pipeline for pulling jobs for followd companies from LinkedIn. Likewise contains a Node app for automating the application to jobs in a list curated by the user.
+A DLT pipeline for pulling jobs for followed companies from LinkedIn. Likewise contains a Node app for automating the application to jobs in a list curated by the user.
 
 - Showcases utility scripting and automated data collection
 - Represents my knack for building tools to bridge information silos
