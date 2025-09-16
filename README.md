@@ -29,6 +29,7 @@ I'm a **data engineer** and **environmental data enthusiast** passionate about e
 ---
 
 ## 🔬 My Work at a Glance
+### Geospatial/Remote Sensing
 - **canopyHydrodynamics**  
   *CI/CD, GitOps, NumPy, GeoPandas, PyPI*  
   Simulates water movement through tree canopies using LiDAR and spatial hydrology models.
@@ -37,6 +38,7 @@ I'm a **data engineer** and **environmental data enthusiast** passionate about e
   *Spatial Data, 3D Modeling, Open3D, PyTorch, Mesh Processing*  
   Processes terrestrial LiDAR scans for tree isolation and segmentation using ML and procedural techniques.
 
+### Server Deployment/Distributed Computing
 - **ArchiveTeam IAC**  
   *OpenTofu, Ansible, Prometheus, Grafana, NodeJS*  
   Infrastructure-as-code for deploying observability stacks and containerized apps across remote machines.
@@ -47,7 +49,7 @@ I'm a **data engineer** and **environmental data enthusiast** passionate about e
 
 - **ml_ops_tree_learn**  
   *MLOps, Digital Ocean, CUDA*  
-  Cloud deployment tool for the Tree Learn Unet model with automated GPU provisioning.
+  Cloud deployment tool for automated GPU provisioning to support a point cloud segmentation Unet model.
 
 ---
 
@@ -63,18 +65,6 @@ A production-grade Python package for simulating water movement through tree can
 ![canopy hydrodynamics visualization](./imgs/PC_QSM_Plot.png)
 
 ---
-
-### 🌲 [`pyQSM`](https://github.com/wischmcj/pyQSM)
-An under-development tool for processing terrestrial LiDAR scans; combining ML and procdedural techniqes for two main purposes
-  1. **Tree Isolation**: Separating individual trees from surrounding man-made objects and other vegetation
-  2. **Tree Segmentation**: Isolating and analyzing different parts of trees (trunk, branches, leaves) for structural modeling
-
-Built with Open3D, PyTorch, and mesh processing libraries
-
-![QSM pipeline visualization](./imgs/cluster4_side_by_Side.png)
-
----
-
 
 ### 🌲 [`ArchiveTeam IAC`](https://github.com/wischmcj/archiveteam-digitalocean-IaC)
 Infrastructure-as-code that deploys a modern observability stack and an arbitrary number of containerized applications across several remote machines. Docker is used for containerization and the observation stack consists of a Prometheus, Grafana, and a custom NodeJS metrics server. Utilized primarily for the community archive project [ArchiveTeam](https://wiki.archiveteam.org/) 
@@ -109,6 +99,18 @@ A DLT pipeline for pulling jobs for followed companies from LinkedIn. Likewise c
 - Represents my knack for building tools to bridge information silos
 
 ---
+
+### 🌲 [`pyQSM`](https://github.com/wischmcj/pyQSM)
+An under-development tool for processing terrestrial LiDAR scans; combining ML and procdedural techniqes for two main purposes
+  1. **Tree Isolation**: Separating individual trees from surrounding man-made objects and other vegetation
+  2. **Tree Segmentation**: Isolating and analyzing different parts of trees (trunk, branches, leaves) for structural modeling
+
+Built with Open3D, PyTorch, and mesh processing libraries
+
+![QSM pipeline visualization](./imgs/cluster4_side_by_Side.png)
+
+---
+
 
 ## 🎯 What Drives Me
 
