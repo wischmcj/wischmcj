@@ -1,3 +1,11 @@
+
+<style type="text/css">
+      .indent {
+        margin-left: 40px; /* Adjust as needed */
+      }
+</style>
+
+
 <p>
   <p>
     <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
@@ -20,6 +28,7 @@
   <a href="https://www.linkedin.com/in/collin-wischmeyer-b55659a4/"><img src="https://img.shields.io/badge/linkedin-0077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <!-- <a href="https://twitter.com/mrstandu33"><img src="https://img.shields.io/badge/twitter-1DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white"/></a> -->
 </p>
+-- 
 
 I'm a **data engineer** and **environmental data enthusiast** passionate about empowering scientists with data. My key efforts focus on geospatial/remote sensing data analysis but I add value more generally through:
 - the creation of data acquisition pipelines (REST/SOAP Apis, web scraping,...)
@@ -27,31 +36,50 @@ I'm a **data engineer** and **environmental data enthusiast** passionate about e
 - orchestration and containerization of workflows (often leveraging IaC tools for reproducibility)
 
 ---
-
 ## 🔬 My Work at a Glance
-### Geospatial/Remote Sensing
-- **canopyHydrodynamics**  
-  *CI/CD, GitOps, NumPy, GeoPandas, PyPI*  
-  Simulates water movement through tree canopies using LiDAR and spatial hydrology models.
 
-- **pyQSM**  
-  *Spatial Data, 3D Modeling, Open3D, PyTorch, Mesh Processing*  
-  Processes terrestrial LiDAR scans for tree isolation and segmentation using ML and procedural techniques.
+> [!NOTE]
+> Detailed project descriptions are available via dropdowns.
 
-### Server Deployment/Distributed Computing
-- **ArchiveTeam IAC**  
-  *OpenTofu, Ansible, Prometheus, Grafana, NodeJS*  
-  Infrastructure-as-code for deploying observability stacks and containerized apps across remote machines.
+<h3>Infrastructure-as-Code & DevOps</h3>
+<details>
+<summary> <b> Distributed Compute Observation Stack </b>- <a href=https://github.com/wischmcj/archiveteam-digitalocean-IaC> ArchiveTeam IaC </a> - <em>Prometheus, Grafana, NodeJS, Docker, Bash </em> </summary>
+    <p class="indent">Automated provisioning  and configuration of multi-container, multi-server clusters. Modular monitoring stack consists of n Observer nodes running Prometheus for node management/aggregation, pre-build Graphana dashboards for visualization and a custom a node.js metrics server for exporting both observer and worker telemetry.</p>
 
-- **PenguaLab-IaC**  
-  *Bash, Linux, Ansible, Helm, Kubernetes (k3s)*  
-  Home lab infrastructure-as-code for distributed modeling and resilient, flexible tooling.
+</details>
+<details>
+<summary> <b> Personal k3s Cluster (HomeLab) </b> - Pengualab IaC - <em> k3s, Helm, Ansible, Argo</em> </summary>
+ <p class="indent"> IaC for the configuration of a multi-architecture (ARM, x64), cross-OS cluster hosted on my local network. Used to configure nodes and deploy apps for my 'Homelab' - a collection of applications for personal use. </p>
+</details>
 
-- **ml_ops_tree_learn**  
-  *MLOps, Digital Ocean, CUDA*  
-  Cloud deployment tool for automated GPU provisioning to support a point cloud segmentation Unet model.
+### Geospatial & Remote Sensing
+<details>
+<summary> <b> canopyHydrodynamics (Core) </b> - <em> NumPy, MatPlotLib, GeoPandas, GDAL </em> </summary>
+ <p class="indent">A production-grade Python package for simulating water movement through tree canopies using LiDAR derrived models and hydrolological techniques. Package is the subject of multiple research papers published in peer-reviewed journals for ecological research.</p>
+</details>
 
+<details>
+<summary> <b> Object Detection MLOps </b> - <em> Laspy, PyTorch, Open3D </em> </summary>
+ <p class="indent">Pipeline for configuration and deployment of a convolutional neural-net on GPU-enabled, cloud-hosted clusters. A one-click solution enabling researchers without specialized hardware to process LiDAR data to rent compute 'as-needed'.</p>
+</details>
+
+<details>
+<summary> <b> Point-based Segmentation + Simulation </b> - <em>SciPy, OpenCV, Rasterio </em> </summary>
+  <p class="indent">Image processing and spatial algorithms to clean and segment trees and their components within terrestrial LiDAR point clouds. Ray-casting + weather data used to estimate distribution of rain and sun exposure under a variety of meteorological conditions. </p>
+</details>
+
+<h3>Data Engineering </h3>
+<details>
+<summary> <b> LinkedInScraper </b> - <em>DLT, Streamlit, DuckDB, Web Scraping </em> </summary>
+ <p class="indent">A LinkedIn data scraper and pipeline based on dlt - performs a series of scraping tasks, stages the results in DuckDB and surfaces them in a UI. Created by reverse engineering LinkedIn's 'hidden' Voyager API to automate data pulls.</p>
+</details>
+
+<details>
+<summary> <b> canopyHydrodynamics (CI) </b> - <em> GitOps, Pandoc, PyPI </em> </summary>
+ <p class="indent">A published PyPI package with robust CI/CD workflow automation using GitOps principles. Workflows include automated linting and unit testing, documentation generation with Pandoc and PR-based, versioned deployment.</p>
+</details>
 ---
+
 
 ## 🚀 Featured Projects
 
@@ -66,7 +94,7 @@ A production-grade Python package for simulating water movement through tree can
 
 ---
 
-### 🌲 [`ArchiveTeam IAC`](https://github.com/wischmcj/archiveteam-digitalocean-IaC)
+### 🌲 [`ArchiveTeam Observation Stack`](https://github.com/wischmcj/archiveteam-digitalocean-IaC)
 Infrastructure-as-code that deploys a modern observability stack and an arbitrary number of containerized applications across several remote machines. Docker is used for containerization and the observation stack consists of a Prometheus, Grafana, and a custom NodeJS metrics server. Utilized primarily for the community archive project [ArchiveTeam](https://wiki.archiveteam.org/) 
 
 - Creates and configures observer and worker nodes on digital ocean droplets using OpenTofu, Ansible
