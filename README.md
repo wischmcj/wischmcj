@@ -125,12 +125,6 @@ Infrastructure-as-code setup for deploying a variety of homelab software contain
 ---
 
 
-## 🎯 What Drives Me
-
-I'm deeply motivated by work that sits at the intersection of **data science**, **ecological systems**, and **open innovation**. Moreover, I strive to embody the principles of 'data-as-a-service' in my work - keeping my focus on the end users and the value my tools might provide.
-
----
-
 📫 Feel free to connect with me:  
 [LinkedIn](https://www.linkedin.com/in/collin-wischmeyer-b55659a4) • [GitHub](https://github.com/wischmcj) • cjwischmeyer@gmail.com  
 <p>
