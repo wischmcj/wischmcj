@@ -18,10 +18,10 @@ I'm a **data engineer** and **environmental data enthusiast** passionate about e
 > Detailed project descriptions are available via dropdowns.
 
 <h3>Infrastructure-as-Code & DevOps</h3>
-[Distributed Compute Observation](#-🌳)  
+<b> Distributed Compute Observation Stack</b>
  <a href=https://github.com/wischmcj/archiveteam-digitalocean-IaC> ArchiveTeam IaC </a>
-</summary> <em>Prometheus, Grafana, NodeJS, Docker, Bash </em> 
-    <p  style="margin-left: 40px">Automated provisioning  and configuration of multi-container, multi-server clusters. Modular monitoring stack consists of n Observer nodes running Prometheus for node management/aggregation, pre-build Graphana dashboards for visualization and a custom a node.js metrics server for exporting both observer and worker telemetry.</p>
+ <em>Prometheus, Grafana, NodeJS, Docker, Bash </em> 
+    <p  style="margin-left: 40px">Automated provisioning  and configuration of multi-container, multi-server clusters. </p>
 
 </details>
 
@@ -104,7 +104,7 @@ Leverages GitOps for robust CI/CD capabilities,
 <p>
 <img src="./imgs/archiveteam_small.png" alt="at_observation_process" width="400"/>
 </p>
-Infrastructure-as-code that deploys a modern observability stack and an arbitrary number of containerized applications across several remote machines. Docker is used for containerization and the observation stack consists of a Prometheus, Grafana, and a custom NodeJS metrics server. Utilized primarily for the community archive project [ArchiveTeam](https://wiki.archiveteam.org/) 
+Infrastructure-as-code that deploys a modern observability stack and an arbitrary number of containerized applications across several remote machines. Modular monitoring stack consists of n Observer nodes running Prometheus for node management/aggregation, pre-build Graphana dashboards for visualization and a custom a node.js metrics server for exporting both observer and worker telemetry. Utilized primarily for the community archive project [ArchiveTeam](https://wiki.archiveteam.org/) 
 
 - Creates and configures observer and worker nodes on digital ocean droplets using OpenTofu, Ansible
 - Configurable, enabling a dynamic number of: workers (e.g. droplets) within the cluster and containers within each worker
