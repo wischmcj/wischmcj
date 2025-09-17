@@ -7,12 +7,26 @@
 
 <h2>About Me</h2> 
 
-I'm a **data engineer** and **environmental data enthusiast** passionate about empowering scientists with data. My key efforts focus on geospatial/remote sensing data analysis but I add value more generally through:
-- the creation of data acquisition pipelines (REST/SOAP Apis, web scraping,...)
-- implementation of lightweight CI/CD tooling
-- orchestration and containerization of workflows (often leveraging IaC tools for reproducibility)
+I'm a **data engineer** and **environmental data enthusiast** passionate about empowering scientists with data. My largest side projects focus on 
+- Remote sensing data analysis and publishing related research 
+- Using infrastructure-as-code tools for the orchestration and containerization of workflows
+- Webscraping and archiving 
 
-## 🔬 My Work at a Glance
+## Tech Stack
+
+**Languages:**  : Python, SQL (PostgreSQL, Snowflake, Redshift)
+
+**Geospatial & Remote Sensing:**  : GDAL, Rasterio, Open3D
+
+**Pipeline Orchestration:**  : Airflow, Prefect, dbt
+
+**Image Processing & ML:**  : PyTorch, OpenCV, Streamlit, Xarray
+
+**Infrastructure & Cloud:**  : AWS (Lambda, Fargate, CloudFormation), Docker, Linux
+
+**Data Governance & Quality:**  : CI/CD, GitHub Actions
+
+## 🔬 Projects at a Glance
 
 <h3>Infrastructure-as-Code & DevOps</h3> 
 
