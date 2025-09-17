@@ -7,6 +7,8 @@ I'm a **data engineer** and **environmental data enthusiast** passionate about e
 - Webscraping and archiving
 
 
+📫 Questions? Connect with me at:  
+[LinkedIn](https://www.linkedin.com/in/collin-wischmeyer-b55659a4) • cjwischmeyer@gmail.com  
 
 
 ## 🔬 Projects at a Glance
@@ -37,16 +39,21 @@ I'm a **data engineer** and **environmental data enthusiast** passionate about e
 <summary>  
  Simulating water movement within tree canopiea under varied meteorological conditions.
  </summary>
-- LiDAR data is used to derive graph based structural models
-- This package is the subject of multiple research papers published in peer-reviewed journals for ecological research.
-- Extracts data for ecohydrological modeling from terrestrial lidar point clouds.
+Identifies key structural traits:
+<ul>
+  <li> Stemflow and throughfall generating areas of the canopy
+  </li>
+  <li> The 'drip points' to which throughfall is directed - complete with their relative volumes
+  </li>
+  <li> 'Divides' and 'confluences' within the canopy that dictate the flow of water through the canopy
+  </li>
+</ul> 
 </details>
 
 <details>
 <summary>  
 Leverages GitOps for robust CI/CD capabilities.
 </summary>
- Includes:
 <ul>
 <li> automated linting and testing for all changes
 </li>
@@ -138,31 +145,17 @@ A DLT pipeline leveraging a LinkedIn's 'hidden' Voyager API to retrieve job and 
   <li>Custom DLT source automatically handles REST requests, pagination, data extraction and relational DB storage
   </li>
   <li>Predefined endpoints/available datasets
-    - `get_companies`: scrape followed companies via GraphQL profile components
-    - `get_job_urls`: fetch job cards per company
-    - `get_descriptions`: fetch job descriptions and details
+    <ul>
+      <li> `get_companies`: scrape followed companies via GraphQL profile components
+      </li>
+      <li> `get_job_urls`: fetch job cards per company
+      </li>
+      <li> `get_descriptions`: fetch job descriptions and details
+      </li>
+    </ul> 
     </li>
   <li> Extensible, with additional resources configured via json
   </li>
 </ul>
 </details>
 
-📫 Feel free to connect with me:  
-[LinkedIn](https://www.linkedin.com/in/collin-wischmeyer-b55659a4) • [GitHub](https://github.com/wischmcj) • cjwischmeyer@gmail.com  
-<p>
-  <p>
-    <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
-    <img src="https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=Amazon-AWS&logoColor=white"/>
-    <img src="https://img.shields.io/badge/-Terraform-623CE4?style=flat-square&logo=Terraform&logoColor=white"/>
-    <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/>
-    <img src="https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=Kubernetes&logoColor=white"/>
-    <img src="https://img.shields.io/badge/-Prefect-3C4E62?style=flat-square&logo=Prefect&logoColor=white"/>
-    <img src="https://img.shields.io/badge/-Open%20Source-181717?style=flat-square&logo=GitHub&logoColor=white"/>
-    <img src="https://img.shields.io/badge/-Research-6A1B9A?style=flat-square&logo=ResearchGate&logoColor=white"/>
-    <img src="https://img.shields.io/badge/-PyPI-3775A9?style=flat-square&logo=PyPI&logoColor=white"/>
-    <img src="https://img.shields.io/badge/-LiDAR-00C853?style=flat-square&logo=Cloudsmith&logoColor=white"/>
-    <img src="https://img.shields.io/badge/-Jupyter-F37626?style=flat-square&logo=Jupyter&logoColor=white"/>
-    <img src="https://img.shields.io/badge/-CI%2FCD-2088FF?style=flat-square&logo=GitHub-Actions&logoColor=white"/>
-  </p>
-</p>
-<p>
