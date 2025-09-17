@@ -73,13 +73,25 @@ Leverages GitOps for robust CI/CD capabilities, Includes automated linting and t
 
 <details>
 <summary>  
-Python package with robust CI/CD for simulating water movement within tree canopiea under varied meteorological conditions.
+ Simulating water movement within tree canopiea under varied meteorological conditions.
  </summary>
 
-- Published to PyPI and cited in ecological research
-- Extracts data for ecohydrological modeling utilizing only commonly used packages (NumPy, GeoPandas, NetworkX)
-- Completed with robust CI/CD for testing, documentation automation and package publication
+- LiDAR data is used to derive graph based structural models
+- This package is the subject of multiple research papers published in peer-reviewed journals for ecological research.
+- Extracts data for ecohydrological modeling from terrestrial lidar point clouds.
 
+</details>
+
+<details>
+<summary>  
+Leverages GitOps for robust CI/CD capabilities,
+</summary>
+ Includes:
+* automated linting and testing for all changes
+* dynamically created version upgrade branches
+* auto-generated method documentation 
+* Versioned deployment automated for release branches 
+</details>
 ---
 
 ### 🌲 [`ArchiveTeam Observation Stack`](https://github.com/wischmcj/archiveteam-digitalocean-IaC)
