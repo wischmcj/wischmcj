@@ -53,7 +53,10 @@ I'm a **data engineer** and **environmental data enthusiast** passionate about e
 
 <details>
 <summary> <b> Production Ready CI/CD </b> - <a href=https://github.com/wischmcj/canopyHydrodynamics> canopyHydrodynamics </a> - <em> GitOps, Pandoc, PyPI </em> </summary>
- <p class="indent">A published PyPI package with robust CI/CD workflow automation using GitOps principles. Workflows include automated linting and unit testing, documentation generation with Pandoc and PR-based, versioned deployment.</p>
+
+<img src="./imgs/PC_QSM_Plot.png" alt="canopy hydrodynamics visualization" width="400"/>
+</p>
+Leverages GitOps for robust CI/CD capabilities, Includes automated linting and testing for all changes to main, dynamically created version upgrade branches, auto-generated method documentation and PR-based, versioned deployment for release merges.
 </details>
 
 ---
