@@ -1,4 +1,5 @@
 # Collin Wischmeyer 
+<!-- <img src="./imgs/skeletor_whole_ds20_proj_alphapt1.png" alt="canopy hydrodynamics visualization" width="270" align="right"/> -->
 
 I'm a **data engineer** and **environmental data enthusiast** passionate about empowering scientists with data. My largest side projects focus on 
 - Remote sensing data analysis and publishing related research 
@@ -6,42 +7,19 @@ I'm a **data engineer** and **environmental data enthusiast** passionate about e
 - Webscraping and archiving
 
 
-## Tech Stack
-
-<img src="./imgs/skeletor_whole_ds20_proj_alphapt1.png" alt="canopy hydrodynamics visualization" width="270" align="right"/>
-
-**Languages**: Python, SQL (PostgreSQL, Snowflake, Redshift)
-
-**Geospatial & Remote Sensing**: GDAL, Open3D, GeoPandas
-
-**Pipeline Orchestration**: Airflow, Prefect, dbt
-
-**Image Processing & ML**: PyTorch, OpenCV, Streamlit, Xarray
-
-**Infrastructure & Cloud**: AWS (Lambda, Fargate, CloudFormation), Docker, Linux
-
-**Data Governance & Quality**: CI/CD, GitHub Actions
-
-**Python Libraries**: Matplotlib, Pandas, Numpy, Scipy
 
 
 ## 🔬 Projects at a Glance
+| Section                              | Technologies                                                                 | Project                                                                                      |
+|---------------------------------------|-------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| **Infrastructure-as-Code**   | *Ansible, Terraform, Bash*                        | **ml_ops_tree_learn**: [Object detection MLOps](#-ml_ops_tree_learn) |
+|  | *Prometheus, Grafana, NodeJS, Docker*                 | **ArchiveTeam IaC**: [Distributed compute observation stack](#-archiveteam-observation-stack) |
+| **Geospatial & Remote Sensing**       |  *Open3D, PyTorch, OpenCV, Rasterio*               | **pyqsm**: [Image processing and spatial algorithms](#-pyqsm) |
+|      | *NumPy, MatPlotLib, GeoPandas, GDAL*                   |  **canopyHydrodynamics**: [Simulating water movement within tree canopies](#-canopyhydrodynamics) |
+| **Data Engineering / DevOps**         | *DLT, DuckDB, Web Scraping, Streamlit*                            | **LinkedInScraper**: [Automated data acquisition](#-LinkedInScraper)                         |
+|    | *GitOps,  Pandocs, PyPI*                     |  **canopyHydrodynamics**: [Robust GitOps CI/CD workflows ](#-canopyhydrodynamics) |
 
-<h3>Infrastructure-as-Code & DevOps</h3> 
 
-- **ml_ops_tree_learn**: [Object detection MLOps](#-ml_ops_tree_learn) for geospatial and remote sensing data.
-- **ArchiveTeam IaC**: [Distributed Compute Observation Stack](#-archiveteam-observation-stack) for infrastructure-as-code and DevOps.
-
-### Geospatial & Remote Sensing
-- **ml_ops_tree_learn**: [Object detection MLOps](#-ml_ops_tree_learn) for geospatial and remote sensing data.
-- **canopyHydrodynamics**: [Simulating water movement within tree canopies](#-canopyhydrodynamics) using LiDAR-derived graph models and ecohydrological modeling.
-
-<h3>Data Engineering./DevOps </h3>
-
-- **LinkedInScraper**: [Automated data acquisition](#-LinkedInScraper) from LinkedIn for data engineering pipelines.
-- **canopyHydrodynamics**: [Simulating water movement within tree canopies](#-canopyhydrodynamics) using LiDAR-derived graph models and ecohydrological modeling.
-
----
 
 
 ## 🚀 Featured Projects
@@ -50,7 +28,7 @@ I'm a **data engineer** and **environmental data enthusiast** passionate about e
 > Detailed project descriptions are available via dropdowns.
 
 ### 🌳 [`canopyHydrodynamics`](https://github.com/wischmcj/canopyHydrodynamics)
-<em> GitOps, GDAL, NumPy, MatPlotLib, GeoPandas, Pandocs, PyPI </em>
+<em> GitOps, NumPy, MatPlotLib, GeoPandas, GDAL, Pandocs, PyPI </em>
 <p>
 <img src="./imgs/PC_QSM_Plot.png" alt="canopy hydrodynamics visualization" width="400"/>
 </p>
@@ -108,7 +86,7 @@ Consists of:
 ---
 
 ### 🌲 [`pyQSM`](https://github.com/wischmcj/pyQSM)
-<em>SciPy, Open3D OpenCV, Rasterio </em>
+<em>SciPy, Open3D OpenCV, Rasterio </em> 
 <p>
 <img src="./imgs/cluster4_side_by_Side.png" alt="pyqsm_example_isolation" width="400"/>
 </p>
@@ -168,27 +146,6 @@ A DLT pipeline leveraging a LinkedIn's 'hidden' Voyager API to retrieve job and 
   </li>
 </ul>
 </details>
-
-
-
-### ⚡ [`k3s Homelab`](https://github.com/wischmcj/PenguaLab-IaC)
-<em> k3s, Helm, Ansible, Argo</em>
-<details>
-<summary>  
-Infrastructure-as-code setup for deploying a variety of containerized applications on a multi-platform Kubernetes (k3s) cluster.
-</summary> 
-</ul>
-Among other applications, hosts:
-<li>PiHole for DNS and adblocking
-</li>
-<li>Argo for orchestration of concurrent modeling workflows
-</li>
-<li>Graphana for display of telemetry data
-</li>
-</ul>
-</details>
-
-
 
 📫 Feel free to connect with me:  
 [LinkedIn](https://www.linkedin.com/in/collin-wischmeyer-b55659a4) • [GitHub](https://github.com/wischmcj) • cjwischmeyer@gmail.com  
