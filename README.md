@@ -66,10 +66,15 @@ Leverages GitOps for robust CI/CD capabilities, Includes automated linting and t
 ## 🚀 Featured Projects
 
 ### 🌳 [`canopyHydrodynamics`](https://github.com/wischmcj/canopyHydrodynamics)
+<em> GitOps, Pandocs, PyPI </em>
 <p>
 <img src="./imgs/PC_QSM_Plot.png" alt="canopy hydrodynamics visualization" width="400"/>
 </p>
-A production-grade Python package for simulating water movement through tree canopies using LiDAR data and spatial hydrology models.
+
+<details>
+<summary>  
+Python package with robust CI/CD for simulating water movement within tree canopiea under varied meteorological conditions.
+ </summary>
 
 - Published to PyPI and cited in ecological research
 - Extracts data for ecohydrological modeling utilizing only commonly used packages (NumPy, GeoPandas, NetworkX)
