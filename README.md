@@ -10,19 +10,19 @@ I'm a **data engineer** and **environmental data enthusiast** passionate about e
 
 <img src="./imgs/skeletor_whole_ds20_proj_alphapt1.png" alt="canopy hydrodynamics visualization" width="270" align="right"/>
 
-**Languages:** Python, SQL (PostgreSQL, Snowflake, Redshift)
+**Languages**: Python, SQL (PostgreSQL, Snowflake, Redshift)
 
-**Geospatial & Remote Sensing:**  : GDAL, Open3D, GeoPandas
+**Geospatial & Remote Sensing**: GDAL, Open3D, GeoPandas
 
-**Pipeline Orchestration:**  : Airflow, Prefect, dbt
+**Pipeline Orchestration**: Airflow, Prefect, dbt
 
-**Image Processing & ML:**  : PyTorch, OpenCV, Streamlit, Xarray
+**Image Processing & ML**: PyTorch, OpenCV, Streamlit, Xarray
 
-**Infrastructure & Cloud:**  : AWS (Lambda, Fargate, CloudFormation), Docker, Linux
+**Infrastructure & Cloud**: AWS (Lambda, Fargate, CloudFormation), Docker, Linux
 
-**Data Governance & Quality:**  : CI/CD, GitHub Actions
+**Data Governance & Quality**: CI/CD, GitHub Actions
 
-**Python Libraries:**  : Matplotlib, Pandas, Numpy, Scipy
+**Python Libraries**: Matplotlib, Pandas, Numpy, Scipy
 
 
 ## 🔬 Projects at a Glance
