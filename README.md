@@ -14,60 +14,30 @@ I'm a **data engineer** and **environmental data enthusiast** passionate about e
 
 ## 🔬 My Work at a Glance
 
-> [!NOTE]
-> Detailed project descriptions are available via dropdowns.
-
 <h3>Infrastructure-as-Code & DevOps</h3> 
-<b> Distributed Compute Observation Stack</b> - 
- <a href=https://github.com/wischmcj/archiveteam-digitalocean-IaC> ArchiveTeam IaC </a>
 
- <em>Prometheus, Grafana, NodeJS, Docker, Bash </em> 
-    <p  style="margin-left: 40px">Automated provisioning  and configuration of multi-container, multi-server clusters. </p>
-
-</details>
-
-<details>
-<summary> <b> Personal k3s Cluster (HomeLab) </b> - <a href=https://github.com/wischmcj/PenguaLab-IaC> PenguaLab-IaC </a> - <em> k3s, Helm, Ansible, Argo</em> </summary>
- <p class="indent"> IaC for the configuration of a multi-architecture (ARM, x64), cross-OS cluster hosted on my local network. Used to configure nodes and deploy apps for my 'Homelab' - a collection of applications for personal use. </p>
-</details>
+- **ml_ops_tree_learn**: [Object detection MLOps](#-ml_ops_tree_learn) for geospatial and remote sensing data.
+- **ArchiveTeam IaC**: [Distributed Compute Observation Stack](#-archiveteam-observation-stack) for infrastructure-as-code and DevOps.
 
 ### Geospatial & Remote Sensing
-<details>
-<summary> <b> Hydrological Modeling </b> - <a href=https://github.com/wischmcj/canopyHydrodynamics> canopyHydrodynamics </a> - <em> NumPy, MatPlotLib, GeoPandas, GDAL </em> </summary>
- <p class="indent">A production-grade Python package for simulating water movement through tree canopies using LiDAR derrived models and hydrolological techniques. Package is the subject of multiple research papers published in peer-reviewed journals for ecological research.</p>
-</details>
+- **ml_ops_tree_learn**: [Object detection MLOps](#-ml_ops_tree_learn) for geospatial and remote sensing data.
+- **canopyHydrodynamics**: [Simulating water movement within tree canopies](#-canopyhydrodynamics) using LiDAR-derived graph models and ecohydrological modeling.
 
-<details>
-<summary> <b> Object Detection MLOps </b> - <a href=https://github.com/wischmcj/ml_ops_tree_learn> ml_ops_tree_learn </a> - <em> Laspy, PyTorch, Open3D </em> </summary>
- <p class="indent">Pipeline for configuration and deployment of a convolutional neural-net on GPU-enabled, cloud-hosted clusters. A one-click solution enabling researchers without specialized hardware to process LiDAR data to rent compute 'as-needed'.</p>
-</details>
+<h3>Data Engineering./DevOps </h3>
 
-<details>
-<summary> <b> Point-based Segmentation + Simulation </b> - <a href=https://github.com/wischmcj/pyQSM> pyqsm </a> - <em>SciPy, OpenCV, Rasterio </em> </summary>
-  <p class="indent">Image processing and spatial algorithms to clean and segment trees and their components within terrestrial LiDAR point clouds. Ray-casting + weather data used to estimate distribution of rain and sun exposure under a variety of meteorological conditions. </p>
-</details>
-
-<h3>Data Engineering </h3>
-<details>
-<summary> <b> LinkedInScraper </b> - <a href=https://github.com/wischmcj/linkedInScraper> LinkedInScraper </a> - <em>DLT, Streamlit, DuckDB, Web Scraping </em> </summary>
- <p class="indent">A LinkedIn data scraper and pipeline based on dlt - performs a series of scraping tasks, stages the results in DuckDB and surfaces them in a UI. Created by reverse engineering LinkedIn's 'hidden' Voyager API to automate data pulls.</p>
-</details>
-
-<details>
-<summary> <b> Production Ready CI/CD </b> - <a href=https://github.com/wischmcj/canopyHydrodynamics> canopyHydrodynamics </a> - <em> GitOps, Pandoc, PyPI </em> </summary>
-
-<img src="./imgs/PC_QSM_Plot.png" alt="canopy hydrodynamics visualization" width="400"/>
-</p>
-Leverages GitOps for robust CI/CD capabilities, Includes automated linting and testing for all changes to main, dynamically created version upgrade branches, auto-generated method documentation and PR-based, versioned deployment for release merges.
-</details>
+- **LinkedInScraper**: [Automated data acquisition](#-LinkedInScraper) from LinkedIn for data engineering pipelines.
+- **canopyHydrodynamics**: [Simulating water movement within tree canopies](#-canopyhydrodynamics) using LiDAR-derived graph models and ecohydrological modeling.
 
 ---
 
 
 ## 🚀 Featured Projects
 
+> [!NOTE]
+> Detailed project descriptions are available via dropdowns.
+
 ### 🌳 [`canopyHydrodynamics`](https://github.com/wischmcj/canopyHydrodynamics)
-<em> GitOps, Pandocs, PyPI </em>
+<em> GitOps, GDAL, NumPy, MatPlotLib, GeoPandas, Pandocs, PyPI </em>
 <p>
 <img src="./imgs/PC_QSM_Plot.png" alt="canopy hydrodynamics visualization" width="400"/>
 </p>
@@ -76,16 +46,14 @@ Leverages GitOps for robust CI/CD capabilities, Includes automated linting and t
 <summary>  
  Simulating water movement within tree canopiea under varied meteorological conditions.
  </summary>
-
 - LiDAR data is used to derive graph based structural models
 - This package is the subject of multiple research papers published in peer-reviewed journals for ecological research.
 - Extracts data for ecohydrological modeling from terrestrial lidar point clouds.
-
 </details>
 
 <details>
 <summary>  
-Leverages GitOps for robust CI/CD capabilities,
+Leverages GitOps for robust CI/CD capabilities.
 </summary>
  Includes:
 <ul>
@@ -102,55 +70,111 @@ Leverages GitOps for robust CI/CD capabilities,
 ---
 
 ### 🌲 [`ArchiveTeam Observation Stack`](https://github.com/wischmcj/archiveteam-digitalocean-IaC)
+<em>Prometheus, Grafana, NodeJS, Docker, Bash</em>
 <p>
 <img src="./imgs/archiveteam_small.png" alt="at_observation_process" width="400"/>
 </p>
-Infrastructure-as-code that deploys a modern observability stack and an arbitrary number of containerized applications across several remote machines. Modular monitoring stack consists of n Observer nodes running Prometheus for node management/aggregation, pre-build Graphana dashboards for visualization and a custom a node.js metrics server for exporting both observer and worker telemetry. Utilized primarily for the community archive project [ArchiveTeam](https://wiki.archiveteam.org/) 
+<details>
+<summary>  
+Infrastructure-as-code to provision and configure a multi-server, multi-container cluster with a modern observability stack. Utilized for the community archive project <a href="https://wiki.archiveteam.org/">ArchiveTeam</a>.
+</summary>
+Consists of:
+<ul>
+  <li>
+    Docker containerization monitored by CloudWatch
+  </li>
+  <li>Prometheus for node management/aggregation
+  </li>
+  <li>Graphana dashboards for visualization
+  </li>
+  <li>a custom a node.js metrics server for exporting telemetry. 
+  </li>
+</ul>
+</details>
 
-- Creates and configures observer and worker nodes on digital ocean droplets using OpenTofu, Ansible
-- Configurable, enabling a dynamic number of: workers (e.g. droplets) within the cluster and containers within each worker
+---
+
+### 🌲 [`pyQSM`](https://github.com/wischmcj/pyQSM)
+<em>SciPy, Open3D OpenCV, Rasterio </em>
+<p>
+<img src="./imgs/cluster4_side_by_Side.png" alt="pyqsm_example_isolation" width="400"/>
+</p>
+
+<details>
+<summary>  
+Image processing and spatial algorithms to clean and segment trees and their components within terrestrial LiDAR point clouds.
+</summary> 
+</ul>
+Key functionality includes:
+<li>Tree Isolation: Separating individual trees from surrounding man-made objects and other vegetation.
+</li>
+<li>Epiphyte Segmentation: Isolating and analyzing different parts of trees (trunk, branches, leaves) as well as plants in and around the trees.
+</li>
+<li>Ray Casting Similations: Creation of 3D meshes representing objects and examining their characteristics via tensor intersection calculations.
+</li>
+</ul>
+</details>
 
 ---
 
 ### 🔄 [`ml_ops_tree_learn`](https://github.com/wischmcj/ml_ops_tree_learn)
+<em> Laspy, Terraform, PyTorch, Open3D </em>
 <p>
 <img src="./imgs/isolated_forest_floor.png" alt="object_isolated_w_mlo-tl" width="400"/>
 </p>
-A small MLOps tool for cloud deployment of the Tree Learn Unet model. Automated provisioning of Digital Ocean GPU droplets to allow for accessible CUDA friendly compute.
-
-- Emulates workflows I use professionally for model delivery
-- Exemplifies the power of ML Ops when combined with open-source ML research
+<details>
+<summary>  
+  An MLOps pipeline for configuration and deployment of a convolutional neural-net on GPU-enabled, cloud-hosted clusters.
+</summary> 
+  Automates the provisioning of Digital Ocean GPU droplets to allow users to leverage CUDA friendly compute. Designed as a 'one-click' solution enabling researchers without specialized hardware to process LiDAR data at minimal cost. 
+</details>
 
 ---
 
 ### 🕸️ [`linkedInScraper`](https://github.com/wischmcj/linkedInScraper)
+<em>DLT, DuckDB, Web Scraping, Streamlit </em> 
 <p>
 <img src="./imgs/li_scraper_ui.png" alt="LI Scraper Streamlit UI]" width="400"/>
 </p>
-A DLT pipeline for pulling jobs for followed companies from LinkedIn. Likewise contains a Node app for automating the application to jobs in a list curated by the user.
 
-- Showcases utility scripting and automated data collection
-- Represents my knack for building tools to bridge information silos
----
+<details>
+<summary>  
+A DLT pipeline leveraging a LinkedIn's 'hidden' Voyager API to retrieve job and company data.
+</summary> 
+<ul>
+  <li>Built on DLT which provides a UI for viewing pipeline status, exploring data
+  </li>
+  <li>Custom DLT source automatically handles REST requests, pagination, data extraction and relational DB storage
+  </li>
+  <li>Predefined endpoints/available datasets
+    - `get_companies`: scrape followed companies via GraphQL profile components
+    - `get_job_urls`: fetch job cards per company
+    - `get_descriptions`: fetch job descriptions and details
+    </li>
+  <li> Extensible, with additional resources configured via json
+  </li>
+</ul>
+</details>
 
-### 🌲 [`pyQSM`](https://github.com/wischmcj/pyQSM)
-<p>
-<img src="./imgs/cluster4_side_by_Side.png" alt="pyqsm_example_isolation" width="400"/>
-</p>
-An under-development tool for processing terrestrial LiDAR scans; combining ML and procdedural techniqes for two main purposes
-  1. **Tree Isolation**: Separating individual trees from surrounding man-made objects and other vegetation
-  2. **Tree Segmentation**: Isolating and analyzing different parts of trees (trunk, branches, leaves) for structural modeling
 
-Built with Open3D, PyTorch, and other, mesh processing libraries
 
----
+### ⚡ [`k3s Homelab`](https://github.com/wischmcj/PenguaLab-IaC)
+<em> k3s, Helm, Ansible, Argo</em>
+<details>
+<summary>  
+Infrastructure-as-code setup for deploying a variety of containerized applications on a multi-platform Kubernetes (k3s) cluster.
+</summary> 
+</ul>
+Among other applications, hosts:
+<li>PiHole for DNS and adblocking
+</li>
+<li>Argo for orchestration of concurrent modeling workflows
+</li>
+<li>Graphana for display of telemetry data
+</li>
+</ul>
+</details>
 
-### ⚡ [`PenguaLab-IaC`](https://github.com/wischmcj/PenguaLab-IaC)
-Infrastructure-as-code setup for deploying a variety of homelab software containers on a Kubernetes (k3s) cluster using Terraform, Ansible, and Helm.
-
-- Built to support a distributed home architecture for running parallel modeling processes 
-- Entirely defines my home network as code, allowing me to host a resilient but flexible suite of always-available tooling
----
 
 
 📫 Feel free to connect with me:  
