@@ -1,22 +1,18 @@
-<h1> Collin Wischmeyer</h1>  
-  
-  # [Work at a Glance](#-my-work-at-a-glance) | [Featured Projects](#-featured-projects)
-   <a href="mailto:cjwischmeyer@gmail.com?subject=[GitHub]%20Contact&body=Hello%20CJ%2C%0A%0AI%20am%20reaching%20out%20after%20seeing%20your%20GitHub%20profile"><img src="https://img.shields.io/badge/e‑mail-D14836.svg?style=for-the-badge&logo=GMail&logoColor=white"/></a>
-  <a href="https://www.linkedin.com/in/collin-wischmeyer-b55659a4/"><img src="https://img.shields.io/badge/linkedin-0077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-
-
-<h2>About Me</h2> 
+# Collin Wischmeyer 
 
 I'm a **data engineer** and **environmental data enthusiast** passionate about empowering scientists with data. My largest side projects focus on 
 - Remote sensing data analysis and publishing related research 
 - Using infrastructure-as-code tools for the orchestration and containerization of workflows
-- Webscraping and archiving 
+- Webscraping and archiving
+
 
 ## Tech Stack
 
-**Languages:**  : Python, SQL (PostgreSQL, Snowflake, Redshift)
+<img src="./imgs/skeletor_whole_ds20_proj_alphapt1.png" alt="canopy hydrodynamics visualization" width="270" align="right"/>
 
-**Geospatial & Remote Sensing:**  : GDAL, Rasterio, Open3D
+**Languages:** Python, SQL (PostgreSQL, Snowflake, Redshift)
+
+**Geospatial & Remote Sensing:**  : GDAL, Open3D, GeoPandas
 
 **Pipeline Orchestration:**  : Airflow, Prefect, dbt
 
@@ -25,6 +21,9 @@ I'm a **data engineer** and **environmental data enthusiast** passionate about e
 **Infrastructure & Cloud:**  : AWS (Lambda, Fargate, CloudFormation), Docker, Linux
 
 **Data Governance & Quality:**  : CI/CD, GitHub Actions
+
+**Python Libraries:**  : Matplotlib, Pandas, Numpy, Scipy
+
 
 ## 🔬 Projects at a Glance
 
