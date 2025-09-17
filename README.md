@@ -12,14 +12,14 @@ I'm a **data engineer** and **environmental data enthusiast** passionate about e
 - implementation of lightweight CI/CD tooling
 - orchestration and containerization of workflows (often leveraging IaC tools for reproducibility)
 
-## 🔬 My Work at a Glance
+## 🔬 My Skills at a Glance
 
 > [!NOTE]
 > Detailed project descriptions are available via dropdowns.
 
-<h3>Infrastructure-as-Code & DevOps</h3>
+<h3> Cloud Deployment & Distributed Computing</h3>
 <details>
-<summary> <b> Distributed Compute Observation Stack </b> - <a href=https://github.com/wischmcj/archiveteam-digitalocean-IaC> ArchiveTeam IaC </a> - <em>Prometheus, Grafana, NodeJS, Docker, Bash </em> </summary>
+<summary> <b>Observation Stack for Distributed Computing </b> - <a href=https://github.com/wischmcj/archiveteam-digitalocean-IaC> ArchiveTeam IaC </a> - <em>Prometheus, Grafana, NodeJS, Docker, Bash </em> </summary>
     <p  style="margin-left: 40px">Automated provisioning  and configuration of multi-container, multi-server clusters. Modular monitoring stack consists of n Observer nodes running Prometheus for node management/aggregation, pre-build Graphana dashboards for visualization and a custom a node.js metrics server for exporting both observer and worker telemetry.</p>
 
 </details>
@@ -59,70 +59,89 @@ I'm a **data engineer** and **environmental data enthusiast** passionate about e
 ---
 
 
-## 🚀 Featured Projects
+<h2> 🚀 Featured Projects </h2>
 
-### 🌳 [`canopyHydrodynamics`](https://github.com/wischmcj/canopyHydrodynamics)
-<p>
-<img src="./imgs/PC_QSM_Plot.png" alt="canopy hydrodynamics visualization" width="400"/>
-</p>
-A production-grade Python package for simulating water movement through tree canopies using LiDAR data and spatial hydrology models.
+<table>
+<tr>
+<td>
+  <img src="./imgs/PC_QSM_Plot.png" alt="canopy hydrodynamics visualization" width="400" align="right" height="auto"/>
 
-- Published to PyPI and cited in ecological research
-- Extracts data for ecohydrological modeling utilizing only commonly used packages (NumPy, GeoPandas, NetworkX)
-- Completed with robust CI/CD for testing, documentation automation and package publication
+  <p align="left" >
+  <h3> 🌳 <a href="https://github.com/wischmcj/canopyHydrodynamics"> canopyHydrodynamics </a> </h3>
 
----
+  A production-grade Python package for simulating water movement through tree canopies using LiDAR data and spatial hydrology models.
 
-### 🌲 [`ArchiveTeam Observation Stack`](https://github.com/wischmcj/archiveteam-digitalocean-IaC)
-<p>
-<img src="./imgs/archiveteam_small.png" alt="at_observation_process" width="400"/>
-</p>
-Infrastructure-as-code that deploys a modern observability stack and an arbitrary number of containerized applications across several remote machines. Docker is used for containerization and the observation stack consists of a Prometheus, Grafana, and a custom NodeJS metrics server. Utilized primarily for the community archive project [ArchiveTeam](https://wiki.archiveteam.org/) 
 
-- Creates and configures observer and worker nodes on digital ocean droplets using OpenTofu, Ansible
-- Configurable, enabling a dynamic number of: workers (e.g. droplets) within the cluster and containers within each worker
+  - Published to PyPI and cited in ecological research
+  - Extracts data for ecohydrological modeling utilizing only commonly used packages (NumPy, GeoPandas, NetworkX)
+  - Completed with robust CI/CD for testing, documentation automation and package publication
+  </p>
 
----
+</td>
+</tr>
+<tr>
+<td>
+  <img src="./imgs/archiveteam_small.png" alt="at_observation_process" width="400" align="right" height="auto"/>
+  <p align="left" >
+  <h3> 🌳 <a href="https://github.com/wischmcj/archiveteam-digitalocean-IaC)"> ArchiveTeam Observation Stack </a> </h3>
+  Automated provisioning and configuration of  multi-server, multi-container clusters. Deployed alongside is a modular monitoring stack consisting of:
+    <ul>
+      <li>Prometheus for node management/aggregation.</li>
+      <li>Pre-build Graphana dashboards for visualization.</li>
+      <li>Node.js metrics server instances for exporting telemetry.</li>
+      <li>AlertManager for status update notifications</li>
+    </ul>
+  </p>
+</td>
+</tr>
 
-### 🔄 [`ml_ops_tree_learn`](https://github.com/wischmcj/ml_ops_tree_learn)
-<p>
-<img src="./imgs/isolated_forest_floor.png" alt="object_isolated_w_mlo-tl" width="400"/>
-</p>
-A small MLOps tool for cloud deployment of the Tree Learn Unet model. Automated provisioning of Digital Ocean GPU droplets to allow for accessible CUDA friendly compute.
+<tr>
+<td>
+<img src="./imgs/li_scraper_ui.png" alt="LI Scraper Streamlit UI]"  width="400" align="right" height="auto"/>
 
-- Emulates workflows I use professionally for model delivery
-- Exemplifies the power of ML Ops when combined with open-source ML research
-
----
-
-### 🕸️ [`linkedInScraper`](https://github.com/wischmcj/linkedInScraper)
-<p>
-<img src="./imgs/li_scraper_ui.png" alt="LI Scraper Streamlit UI]" width="400"/>
-</p>
+<p align="left" >
+<h3> 🕸️ <a href="https://github.com/wischmcj/linkedInScraper"> linkedInScraper </a> </h3>
 A DLT pipeline for pulling jobs for followed companies from LinkedIn. Likewise contains a Node app for automating the application to jobs in a list curated by the user.
 
 - Showcases utility scripting and automated data collection
 - Represents my knack for building tools to bridge information silos
----
-
-### 🌲 [`pyQSM`](https://github.com/wischmcj/pyQSM)
-<p>
-<img src="./imgs/cluster4_side_by_Side.png" alt="pyqsm_example_isolation" width="400"/>
 </p>
-An under-development tool for processing terrestrial LiDAR scans; combining ML and procdedural techniqes for two main purposes
-  1. **Tree Isolation**: Separating individual trees from surrounding man-made objects and other vegetation
-  2. **Tree Segmentation**: Isolating and analyzing different parts of trees (trunk, branches, leaves) for structural modeling
+</tr>
+</td>
+
+<tr>
+<td>
+<img src="./imgs/cluster4_side_by_Side.png" alt="pyqsm_example_isolation"  width="400" align="right" height="auto"/>
+
+<p align="left" >
+<h3> 🌲 <a href="https://github.com/wischmcj/pyQSM"> pyQSM  </a> </h3>
+Adhoc scripts for processing 3D point cloud data;
+
+1. **Tree Isolation**: Separating individual trees from surrounding man-made objects and other vegetation
+2. **Tree Segmentation**: Isolating and analyzing different parts of trees (trunk, branches, leaves) for structural modeling
 
 Built with Open3D, PyTorch, and other, mesh processing libraries
 
----
+</p>
+</tr>
+</td>
 
-### ⚡ [`PenguaLab-IaC`](https://github.com/wischmcj/PenguaLab-IaC)
+
+<tr>
+<td>
+<p align="left" >
+<h3> ⚡ <a href="https://github.com/wischmcj/PenguaLab-IaC">PenguaLab-IaC  </a> </h3>
 Infrastructure-as-code setup for deploying a variety of homelab software containers on a Kubernetes (k3s) cluster using Terraform, Ansible, and Helm.
 
-- Built to support a distributed home architecture for running parallel modeling processes 
+- Built to support a distributed home architecture for running parallel modeling processes
 - Entirely defines my home network as code, allowing me to host a resilient but flexible suite of always-available tooling
----
+</p>
+</tr>
+</td>
+
+</table>
+
+
 
 
 📫 Feel free to connect with me:  
