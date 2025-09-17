@@ -87,10 +87,15 @@ Leverages GitOps for robust CI/CD capabilities, Includes automated linting and t
 Leverages GitOps for robust CI/CD capabilities,
 </summary>
  Includes:
-* automated linting and testing for all changes
-* dynamically created version upgrade branches
-* auto-generated method documentation 
-* Versioned deployment automated for release branches 
+<ul>
+<li> automated linting and testing for all changes
+</li>
+<li> dynamically created version upgrade branches
+</li>
+<li>auto-generated method documentation 
+</li>
+<li>Versioned deployment automated for release branches </li>
+</ul>
 </details>
 ---
 
