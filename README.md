@@ -19,7 +19,8 @@ I'm a **data engineer** and **environmental data enthusiast** passionate about e
 
 <h3>Infrastructure-as-Code & DevOps</h3>
 <details>
-<summary> <b> Distributed Compute Observation Stack </b> - <a href=https://github.com/wischmcj/archiveteam-digitalocean-IaC> ArchiveTeam IaC </a> - <em>Prometheus, Grafana, NodeJS, Docker, Bash </em> </summary>
+<summary> <b> Distributed Compute Observation Stack </b> - <a href=https://github.com/wischmcj/archiveteam-digitalocean-IaC> ArchiveTeam IaC </a>
+</summary> <em>Prometheus, Grafana, NodeJS, Docker, Bash </em> 
     <p  style="margin-left: 40px">Automated provisioning  and configuration of multi-container, multi-server clusters. Modular monitoring stack consists of n Observer nodes running Prometheus for node management/aggregation, pre-build Graphana dashboards for visualization and a custom a node.js metrics server for exporting both observer and worker telemetry.</p>
 
 </details>
