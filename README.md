@@ -18,7 +18,7 @@ I'm a **data engineer** and **environmental data enthusiast** passionate about e
 |  | *Prometheus, Grafana, NodeJS, Docker*                 | **ArchiveTeam IaC**: [Distributed compute observation stack](#-archiveteam-observation-stack) |
 | **Geospatial & Remote Sensing**       |  *Open3D, PyTorch, OpenCV, Rasterio*               | **pyqsm**: [Image processing and spatial algorithms](#-pyqsm) |
 |      | *NumPy, MatPlotLib, GeoPandas, GDAL*                   |  **canopyHydrodynamics**: [Simulating water movement within tree canopies](#-canopyhydrodynamics) |
-| **Data Engineering / DevOps**         | *DLT, DuckDB, Web Scraping, Streamlit*                            | **LinkedInScraper**: [Automated data acquisition](#-LinkedInScraper)                         |
+| **Data Engineering / DevOps**         | *DLT, DuckDB, Web Scraping, Streamlit*                            | **LinkedInScraper**: [Automated data acquisition](#-linkedInScraper)                         |
 |    | *GitOps,  Pandocs, PyPI*                     |  **canopyHydrodynamics**: [Robust GitOps CI/CD workflows ](#-canopyhydrodynamics) |
 
 
