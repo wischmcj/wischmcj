@@ -20,8 +20,7 @@ I'm a **data engineer** and **environmental data enthusiast** passionate about e
 |      | *NumPy, MatPlotLib, GeoPandas, GDAL*                   |  **canopyHydrodynamics**: [Simulating water movement within tree canopies](#-canopyhydrodynamics) |
 | **Data Engineering / DevOps**         | *DLT, DuckDB, Web Scraping, Streamlit*                            | **LinkedInScraper**: [Automated data acquisition](#%EF%B8%8F-linkedinscraper)                         |
 |    | *GitOps,  Pandocs, PyPI*                     |  **canopyHydrodynamics**: [Robust GitOps CI/CD workflows ](#-canopyhydrodynamics) |
-
-
+| **Data Engineering / DevOps**         | *DLT, DuckDB, Web Scraping, Streamlit*                            | **LinkedInScraper**: [Automated data acquisition](#%EF%B8%8F-linkedinscraper)                         |
 
 
 ## 🚀 Featured Projects
@@ -126,6 +125,36 @@ Key functionality includes:
 </summary> 
   Automates the provisioning of Digital Ocean GPU droplets to allow users to leverage CUDA friendly compute. Designed as a 'one-click' solution enabling researchers without specialized hardware to process LiDAR data at minimal cost. 
 </details>
+
+--
+
+###  [`SimpleCrawler`](https://github.com/wischmcj/simple-crawler)
+<em>DLT, DuckDB, Web Scraping, Streamlit </em> 
+<p>
+<img src="./imgs/li_scraper_ui.png" alt="LI Scraper Streamlit UI]" width="400"/>
+</p>
+
+<details>
+<summary>  
+A CLI tool for comprehensive website mapping.
+</summary> 
+<ul>
+  
+  <li> Asyncronous, event-drive system with several worker types 
+    <ul>
+      <li> `: scrape followed companies via GraphQL profile components
+      </li>
+      <li> `get_job_urls`: fetch job cards per company
+      </li>
+      <li> `get_descriptions`: fetch job descriptions and details
+      </li>
+    </ul> 
+    </li>
+  <li> Extensible, with additional resources configured via json
+  </li>
+</ul>
+</details>
+
 
 ---
 
