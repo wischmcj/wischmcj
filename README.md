@@ -139,8 +139,8 @@ Key functionality includes:
 A CLI tool for comprehensive website mapping. Producer/consumer architecture facilitated by Redis enables asyncronous, non-blocking io.
 </summary> 
 <ul>
-  <li> Recurses web pages collecting 1. internal links 2. elements matching provided regez patterns
-      </li>
+  <li> Recurses web pages collecting internal site links and elements matching provided regez patterns
+  </li>
   <li> Independently scalable worker pools 
     <ul>
       <li> `SiteDownloader`s: Consume urls from queue, requesting and caching html content
