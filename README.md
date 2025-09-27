@@ -130,7 +130,8 @@ Key functionality includes:
 
 ###  [`SimpleCrawler`](https://github.com/wischmcj/simple-crawler)
 <em> Redis, Asyncio, Event-streaming </em> 
-`image tba`
+
+`diagram coming soon`
 
 <details>
 <summary>  
