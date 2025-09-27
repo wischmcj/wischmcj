@@ -130,9 +130,7 @@ Key functionality includes:
 
 ###  [`SimpleCrawler`](https://github.com/wischmcj/simple-crawler)
 <em> Redis, Asyncio, Event-streaming </em> 
-<p>
-<img src="./imgs/li_scraper_ui.png" alt="LI Scraper Streamlit UI]" width="400"/>
-</p>
+`image tba`
 
 <details>
 <summary>  
