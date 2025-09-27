@@ -19,9 +19,10 @@ I'm a **data engineer** and **environmental data enthusiast** passionate about e
 | **Geospatial & Remote Sensing**       |  *Open3D, PyTorch, OpenCV, Rasterio*               | **pyqsm**: [Image processing and spatial algorithms](#-pyqsm) |
 |      | *NumPy, MatPlotLib, GeoPandas, GDAL*                   |  **canopyHydrodynamics**: [Simulating water movement within tree canopies](#-canopyhydrodynamics) |
 | **Data Engineering / DevOps**         | *DLT, DuckDB, Web Scraping, Streamlit*                            | **LinkedInScraper**: [Automated data acquisition](#%EF%B8%8F-linkedinscraper)                         |
-|    | *GitOps,  Pandocs, PyPI*                     |  **canopyHydrodynamics**: [Robust GitOps CI/CD workflows ](#-canopyhydrodynamics) |
-| **Data Engineering / DevOps**         | *DLT, DuckDB, Web Scraping, Streamlit*                            | **LinkedInScraper**: [Automated data acquisition](#%EF%B8%8F-linkedinscraper)                         |
-
+|    | *GitOps,  Pandocs, PyPI*                     |  **canopyHydrodynamics**: [Robust GitOps CI/CD workflows ](#-canopyhydrodynamics) 
+|
+|    | *Redis, Asyncio, Event-streaming*                            | **SimpleCrawler**: [CLI tool for site mapping w/ ayncronous io ](#-simple-crawler)     
+Redis, Asyncio, Event-streaming
 
 ## 🚀 Featured Projects
 
@@ -129,28 +130,28 @@ Key functionality includes:
 --
 
 ###  [`SimpleCrawler`](https://github.com/wischmcj/simple-crawler)
-<em>DLT, DuckDB, Web Scraping, Streamlit </em> 
+<em> Redis, Asyncio, Event-streaming </em> 
 <p>
 <img src="./imgs/li_scraper_ui.png" alt="LI Scraper Streamlit UI]" width="400"/>
 </p>
 
 <details>
 <summary>  
-A CLI tool for comprehensive website mapping.
+A CLI tool for comprehensive website mapping. Producer/consumer architecture facilitated by Redis enables asyncronous, non-blocking io.
 </summary> 
 <ul>
-  
-  <li> Asyncronous, event-drive system with several worker types 
+  <li> Recurses web pages collecting 1. internal links 2. elements matching provided regez patterns
+      </li>
+  <li> Independently scalable worker pools 
     <ul>
-      <li> `: scrape followed companies via GraphQL profile components
+      <li> `SiteDownloader`s: Consume urls from queue, requesting and caching html content
       </li>
-      <li> `get_job_urls`: fetch job cards per company
+      <li> `Parser`s: Identify requested elements in cached html, queue new urls for download, fire 'work-item-complete event.
       </li>
-      <li> `get_descriptions`: fetch job descriptions and details
+      <li> `UrlBulkWriter`s: Subscribe to completed item queue, batch write to SQL DB.
       </li>
     </ul> 
     </li>
-  <li> Extensible, with additional resources configured via json
   </li>
 </ul>
 </details>
