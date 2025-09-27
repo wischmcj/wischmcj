@@ -135,7 +135,7 @@ Key functionality includes:
 
 <details>
 <summary>  
-A CLI tool for comprehensive website mapping. Producer/consumer architecture facilitated by Redis enables asyncronous, non-blocking io.
+A CLI tool for web crawling; accepts regex patterns and saves results to DuckDB. Producer/consumer architecture facilitated by Redis enables asyncronous, non-blocking io.
 </summary> 
 <ul>
   <li> Recurses web pages collecting internal site links and elements matching provided regez patterns
