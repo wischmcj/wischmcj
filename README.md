@@ -22,7 +22,7 @@ I'm a **data engineer** and **environmental data enthusiast** passionate about e
 |    | *GitOps,  Pandocs, PyPI*                     |  **canopyHydrodynamics**: [Robust GitOps CI/CD workflows ](#-canopyhydrodynamics) 
 |
 |    | *Redis, Asyncio, Event-streaming*                            | **SimpleCrawler**: [CLI tool for site mapping w/ ayncronous io ](#-simple-crawler)     
-Redis, Asyncio, Event-streaming
+|
 
 ## 🚀 Featured Projects
 
