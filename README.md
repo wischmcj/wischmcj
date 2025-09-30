@@ -20,7 +20,7 @@ I'm a **data engineer** and **environmental data enthusiast** passionate about e
 |      | *NumPy, MatPlotLib, GeoPandas, GDAL*                   |  **canopyHydrodynamics**: [Simulating water movement within tree canopies](#-canopyhydrodynamics) |
 | **Data Engineering / DevOps**         | *DLT, DuckDB, Web Scraping, Streamlit*                            | **LinkedInScraper**: [Automated data acquisition](#%EF%B8%8F-linkedinscraper)                         |
 |    | *GitOps,  Pandocs, PyPI*                     |  **canopyHydrodynamics**: [Robust GitOps CI/CD workflows ](#-canopyhydrodynamics) |
-|    | *Redis, Asyncio, Event-streaming*                            | **SimpleCrawler**: [CLI tool for site mapping w/ ayncronous io](#simplecrawler)     
+|    | *Redis, Asyncio, Event-streaming*                            | **MrCrawly**: [CLI tool for site mapping w/ ayncronous io](#mrcrawly)     
 |
 
 ## 🚀 Featured Projects
@@ -128,7 +128,7 @@ Key functionality includes:
 
 --
 
-###  [`SimpleCrawler`](https://github.com/wischmcj/simple-crawler)
+###  [`MrCrawly`](https://github.com/wischmcj/mr-crawly)
 <em> Redis, Asyncio, Event-streaming </em> 
 
 `diagram coming soon`
