@@ -20,7 +20,6 @@ I'm a **data engineer** and **environmental data enthusiast** passionate about e
 |      | *NumPy, MatPlotLib, GeoPandas, GDAL*                   |  **canopyHydrodynamics**: [Simulating water movement within tree canopies](#-canopyhydrodynamics) |
 | **Data Engineering / DevOps**         | *DLT, DuckDB, Web Scraping, Streamlit*                            | **LinkedInScraper**: [Automated data acquisition](#%EF%B8%8F-linkedinscraper)                         |
 |    | *GitOps,  Pandocs, PyPI*                     |  **canopyHydrodynamics**: [Robust GitOps CI/CD workflows ](#-canopyhydrodynamics) |
-|    | *Redis, Asyncio, Event-streaming*                            | **MrCrawly**: [CLI tool for site mapping w/ ayncronous io](#mrcrawly)     
 |
 
 ## 🚀 Featured Projects
@@ -125,35 +124,6 @@ Key functionality includes:
 </summary> 
   Automates the provisioning of Digital Ocean GPU droplets to allow users to leverage CUDA friendly compute. Designed as a 'one-click' solution enabling researchers without specialized hardware to process LiDAR data at minimal cost. 
 </details>
-
---
-
-###  [`MrCrawly`](https://github.com/wischmcj/mr-crawly)
-<em> Redis, Asyncio, Event-streaming </em> 
-
-`diagram coming soon`
-
-<details>
-<summary>  
-A CLI tool for web crawling; accepts regex patterns and saves results to DuckDB. Producer/consumer architecture facilitated by Redis enables asyncronous, non-blocking io.
-</summary> 
-<ul>
-  <li> Recurses web pages collecting internal site links and elements matching provided regez patterns
-  </li>
-  <li> Independently scalable worker pools 
-    <ul>
-      <li> `SiteDownloader`s: Consume urls from queue, requesting and caching html content
-      </li>
-      <li> `Parser`s: Identify requested elements in cached html, queue new urls for download, fire 'work-item-complete event.
-      </li>
-      <li> `UrlBulkWriter`s: Subscribe to completed item queue, batch write to SQL DB.
-      </li>
-    </ul> 
-    </li>
-  </li>
-</ul>
-</details>
-
 
 ---
 
