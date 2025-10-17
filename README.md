@@ -1,9 +1,9 @@
 # Collin Wischmeyer 
 <!-- <img src="./imgs/skeletor_whole_ds20_proj_alphapt1.png" alt="canopy hydrodynamics visualization" width="270" align="right"/> -->
 
-I'm a **data engineer** and **environmental data enthusiast** passionate about empowering scientists with data. My largest side projects focus on 
+I'm a **data engineer** and **environmental data enthusiast** passionate about empowering scientists with tools to aquire and analyze data. My largest side projects focus on 
 - Remote sensing data analysis and publishing related research 
-- Using infrastructure-as-code tools for the orchestration and containerization of workflows
+- Using infrastructure-as-code tools for the orchestration and containerization of workflows (MlOps 
 - Webscraping and archiving
 
 
